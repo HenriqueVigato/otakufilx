@@ -1,0 +1,123 @@
+{
+  "categorias": [
+    {
+      "titulo": "Ação / Aventura",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "red",      
+      "videos": [
+        {
+          "titulo": "Sword Art Online  Alicization  Parte 3 | Trailer",
+          "url": "https://www.youtube.com/watch?v=C27bHIDFU9Q"
+        },
+        {
+          "titulo": "Fire Force Season 2 | Trailer",
+          "url": "https://www.youtube.com/watch?v=8zwXPj3Qqb4"
+        },
+        {
+          "titulo": "Re:ZERO Season 2 | Trailer",
+          "url": "https://www.youtube.com/watch?v=OD_ad1YiIvQ"
+        },
+        {
+          "titulo": "No Guns Life Season 2 | Trailer",
+          "url": "https://www.youtube.com/watch?v=2yMoaIjkjGE"
+        },
+        {
+          "titulo": "SUPER HXEROS | Official Trailer",
+          "url": "https://www.youtube.com/watch?v=LjsE7P2CeKA"
+        },
+        {
+          "titulo": "GREAT PRETENDER | Trailer",
+          "url": "https://www.youtube.com/watch?v=Hmr5XmAzcRU"
+        },
+        {
+          "titulo": "The Misfit of Demon King Academy | Trailer",
+          "url": "https://www.youtube.com/watch?v=1xmzzF0XQEY&feature=emb_title"
+        },
+        {
+          "titulo": "The God of High School | Trailer",
+          "url": "https://www.youtube.com/watch?v=oqjwUfprNAk&feature=emb_title"
+        },
+        {        
+          "titulo": "DECA-DENCE | Trailer",
+          "url": "https://www.youtube.com/watch?v=CDfCpGU5cgc&feature=emb_title"
+        },        
+        {        
+          "titulo": "GIBIATE 3rd Anime | Trailer",
+          "url": "https://www.youtube.com/watch?v=N_sO4mcdWxM&feature=emb_title"
+        },       
+        {        
+          "titulo": "Food Wars! The Fifth Plate | Trailer",
+          "url": "https://www.youtube.com/watch?v=jet15BbCbXI&feature=emb_title"
+        },        
+        {        
+          "titulo": "Appare-Ranman | Official Trailer",
+          "url": "https://www.youtube.com/watch?v=gm_ABHGbk3o&feature=emb_title"
+        },        
+        {        
+          "titulo": "DIGIMON ADVENTURE | Trailer",
+          "url": "https://www.youtube.com/watch?v=0C1GNBG6ZbU&feature=emb_title"
+        },        
+        {        
+          "titulo": "Koi to Producer | Trailer",
+          "url": "https://www.youtube.com/watch?v=qLQ7RsJy62o&feature=emb_title"
+        }      
+      ]
+    },
+    {
+      "titulo": "Comédia / Comédia Romantica",
+      "cor": "#FF8C00",
+      "videos": [
+        {
+          "titulo": "Kanojo, Okarishimasu | Trailer",
+          "url": "https://www.youtube.com/watch?v=uIfxrlJg0Jw&feature=emb_title"
+        },
+        {
+          "titulo": "Peter Grill to Kenja no Jikan | Trailer",
+          "url": "https://www.youtube.com/watch?v=6wZ977Qcy5I"
+        },
+        {
+          "titulo": "Monster Musume no Oisha-san | Trailer",
+          "url": "https://www.youtube.com/watch?v=QQ5zFCoj6zQ&feature=emb_title"
+        }, 
+        {
+          "titulo": "Uzaki-chan wa Asobitai! Trailer",
+          "url": "https://www.youtube.com/watch?v=IfJXv7_kXZY&feature=emb_title"
+        } 
+      ]
+    },
+    {
+      "titulo": "Drama",
+      "cor": "#0000CD",
+      "videos": [
+        {
+          "titulo": "Oregairu (3ª Temporada) | Trailer ",
+          "url": "https://www.youtube.com/watch?v=M72EzA0WR4E"
+        },
+        {
+          "titulo": "Lapis Re:LiGHTs | Trailer",
+          "url": "https://www.youtube.com/watch?v=vWgJnDXS5IU&feature=emb_title"
+        }
+      ]
+    },
+    {
+      "titulo": "Slice of Life",
+      "cor": "#00868B",
+      "videos": [
+        {
+          "titulo": "Houkago Teibou Nisshi | Trailer",
+          "url": "https://www.youtube.com/watch?v=PAvLwvItvts&feature=emb_title"
+        }
+      ]
+    },
+    {
+      "titulo": "Esportes",
+      "cor": "green",      
+      "videos": [
+        {
+          "titulo": "Major 2 | Trailer",
+          "url": "https://www.youtube.com/watch?v=wtEUCSPz6Cg&feature=emb_title"
+        }
+      ]
+    }
+  ]
+}
