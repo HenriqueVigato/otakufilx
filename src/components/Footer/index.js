@@ -6,7 +6,7 @@ import logo from '../../assets/img/logo_henriquevigato.png'
 function Footer() {
   return (
     <FooterBase>
-      <a href="/">
+      <a href="https://github.com/HenriqueVigato">
         <img src={logo} alt="Logo Henrique" width="120px"/>
       </a>
       <p>

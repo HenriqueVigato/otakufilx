@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastraCategoria() {
   const valoresIniciais = {
@@ -10,29 +11,15 @@ function CadastraCategoria() {
     descricao: '',
     cor: '',
   };
+
+  const { handlerChanger, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handlerChanger(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
 
   useEffect(() => {
-    console.log('alo alo');
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
-      : 'http://otakuflix1.herokuapp.com/categorias';
+      : 'https://otakuflix1.herokuapp.com/categorias';
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -40,7 +27,7 @@ function CadastraCategoria() {
           ...resposta,
         ]);
       });
-  }, []);
+  });
 
   return (
 
@@ -59,7 +46,7 @@ function CadastraCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
@@ -100,8 +87,8 @@ function CadastraCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
 

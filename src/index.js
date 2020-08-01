@@ -23,5 +23,5 @@ ReactDOM.render(
     </Switch>
   </BrowserRouter>,
 
-  document.getElementById('root')
+  document.getElementById('root'),
 );

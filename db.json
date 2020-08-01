@@ -2,15 +2,182 @@
    "categorias": [
       {
          "id": 1,
-         "nome": "Front End",
-         " descricao": "Categoria Bacanuda",
-         "cor": "#DB8432"
+         "titulo": "Ação / Aventura",
+         "cor": "red",
+         "link_extra": {
+            "text": "Episódios Disponiveis em Crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br"
+         }
       },
       {
          "id": 2,
-         "nome": "Front End",
-         " descricao": "Categoria Bacanuda",
-         "cor": "#DB8432"
+         "titulo": "Comédia / Comédia Romantica",
+         "cor": "#FF8C00",
+         "link_extra": {
+            "text": "Episódios Disponiveis em Crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br"
+         }
+      },
+      {
+         "id": 3,
+         "titulo": "Drama",
+         "cor": "#0000CD",
+         "link_extra": {
+            "text": "Episódios Disponiveis em Crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br"
+         }
+      },
+      {
+         "id": 4,
+         "titulo": "Slice of Life",
+         "cor": "#00868B",
+         "link_extra": {
+            "text": "Episódios Disponiveis em Crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br"
+         }
+      },
+      {
+         "id": 5,
+         "titulo": "Esportes",
+         "cor": "green",
+         "link_extra": {
+            "text": "Episódios Disponiveis em Crunchyroll",
+            "url": "https://www.crunchyroll.com/pt-br"
+         }
+      }
+   ],
+   "videos": [
+      {
+         "id": 1,
+         "categoriaId": 1,
+         "titulo": "Sword Art Online  Alicization  Parte 3 | Trailer",
+         "url": "https://www.youtube.com/watch?v=C27bHIDFU9Q"
+      },
+      {
+         "id": 2,
+         "categoriaId": 1,
+         "titulo": "Fire Force Season 2 | Trailer",
+         "url": "https://www.youtube.com/watch?v=8zwXPj3Qqb4"
+      },
+      {
+         "id": 3,
+         "categoriaId": 1,
+         "titulo": "Re:ZERO Season 2 | Trailer",
+         "url": "https://www.youtube.com/watch?v=OD_ad1YiIvQ"
+      },
+      {
+         "id": 4,
+         "categoriaId": 1,
+         "titulo": "No Guns Life Season 2 | Trailer",
+         "url": "https://www.youtube.com/watch?v=2yMoaIjkjGE"
+      },
+      {
+         "id": 5,
+         "categoriaId": 1,
+         "titulo": "SUPER HXEROS | Official Trailer",
+         "url": "https://www.youtube.com/watch?v=LjsE7P2CeKA"
+      },
+      {
+         "id": 6,
+         "categoriaId": 1,
+         "titulo": "GREAT PRETENDER | Trailer",
+         "url": "https://www.youtube.com/watch?v=Hmr5XmAzcRU"
+      },
+      {
+         "id": 7,
+         "categoriaId": 1,
+         "titulo": "The Misfit of Demon King Academy | Trailer",
+         "url": "https://www.youtube.com/watch?v=1xmzzF0XQEY&feature=emb_title"
+      },
+      {
+         "id": 8,
+         "categoriaId": 1,
+         "titulo": "The God of High School | Trailer",
+         "url": "https://www.youtube.com/watch?v=oqjwUfprNAk&feature=emb_title"
+      },
+      {
+         "id": 9,
+         "categoriaId": 1,
+         "titulo": "DECA-DENCE | Trailer",
+         "url": "https://www.youtube.com/watch?v=CDfCpGU5cgc&feature=emb_title"
+      },
+      {
+         "id": 10,
+         "categoriaId": 1,
+         "titulo": "GIBIATE 3rd Anime | Trailer",
+         "url": "https://www.youtube.com/watch?v=N_sO4mcdWxM&feature=emb_title"
+      },
+      {
+         "id": 11,
+         "categoriaId": 1,
+         "titulo": "Food Wars! The Fifth Plate | Trailer",
+         "url": "https://www.youtube.com/watch?v=jet15BbCbXI&feature=emb_title"
+      },
+      {
+         "id": 12,
+         "categoriaId": 1,
+         "titulo": "Appare-Ranman | Official Trailer",
+         "url": "https://www.youtube.com/watch?v=gm_ABHGbk3o&feature=emb_title"
+      },
+      {
+         "id": 13,
+         "categoriaId": 1,
+         "titulo": "DIGIMON ADVENTURE | Trailer",
+         "url": "https://www.youtube.com/watch?v=0C1GNBG6ZbU&feature=emb_title"
+      },
+      {
+         "id": 14,
+         "categoriaId": 1,
+         "titulo": "Koi to Producer | Trailer",
+         "url": "https://www.youtube.com/watch?v=qLQ7RsJy62o&feature=emb_title"
+      },
+      {
+         "id": 15,
+         "categoriaId": 2,
+         "titulo": "Kanojo, Okarishimasu | Trailer",
+         "url": "https://www.youtube.com/watch?v=uIfxrlJg0Jw&feature=emb_title"
+      },
+      {
+         "id": 16,
+         "categoriaId": 2,
+         "titulo": "Peter Grill to Kenja no Jikan | Trailer",
+         "url": "https://www.youtube.com/watch?v=6wZ977Qcy5I"
+      },
+      {
+         "id": 17,
+         "categoriaId": 2,
+         "titulo": "Monster Musume no Oisha-san | Trailer",
+         "url": "https://www.youtube.com/watch?v=QQ5zFCoj6zQ&feature=emb_title"
+      },
+      {
+         "id": 18,
+         "categoriaId": 2,
+         "titulo": "Uzaki-chan wa Asobitai! Trailer",
+         "url": "https://www.youtube.com/watch?v=IfJXv7_kXZY&feature=emb_title"
+      },
+      {
+         "id": 19,
+         "categoriaId": 3,
+         "titulo": "Oregairu (3ª Temporada) | Trailer ",
+         "url": "https://www.youtube.com/watch?v=M72EzA0WR4E"
+      },
+      {
+         "id": 20,
+         "categoriaId": 3,
+         "titulo": "Lapis Re:LiGHTs | Trailer",
+         "url": "https://www.youtube.com/watch?v=vWgJnDXS5IU&feature=emb_title"
+      },
+      {
+         "id": 21,
+         "categoriaId": 4,
+         "titulo": "Houkago Teibou Nisshi | Trailer",
+         "url": "https://www.youtube.com/watch?v=PAvLwvItvts&feature=emb_title"
+      },
+      {
+         "id": 22,
+         "categoriaId": 5,
+         "titulo": "Major 2 | Trailer",
+         "url": "https://www.youtube.com/watch?v=wtEUCSPz6Cg&feature=emb_title"
       }
    ]
 }
